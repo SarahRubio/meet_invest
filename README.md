@@ -1,24 +1,16 @@
 # meet_invest
 
-## Project setup
-```
-npm install
-```
+## Installation du projet :
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Avant de lancer le projet Meet-Invest il faut : 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+  - Télécharger les repositories meet-invest ET meet_invest_node
+  - Importer la base de données Mysql présente dans le repository meet_invest_node
+  - Installer Node sur l'ordinateur. Ex: dans le terminal avec Home brew : brew install node
+  - Installer Mysql en configurant root et password comme indiqué dans le fichier index.js du repository meet_invest_node
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Lancement du projet :
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ - Dans un premier terminal, en se plaçant dans le dossier Meet_Invest_Node, lancer le serveur node avec la commande : node index.js
+ - Dans un second terminal, en se plaçant dans le dossier Meet_invest, lancer le serveur Vuejs: npm run serve --fix
+ - Sur votre navigateur, accéder au site en tapant l'url : http://localhost:8000
